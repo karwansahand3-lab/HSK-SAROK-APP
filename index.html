@@ -1,117 +1,76 @@
 <!DOCTYPE html>
-<html lang="ku" dir="rtl">
+<html lang="ckb" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HSK SAROK APP</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            font-family: Tahoma, sans-serif;
+            background-color: #0f172a;
             color: #ffffff;
             margin: 0;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
         }
         .container {
-            max-width: 450px;
+            max-width: 500px;
             margin: 0 auto;
-        }
-        .header {
-            background: rgba(255, 255, 255, 0.1);
+            background: #1e293b;
             padding: 20px;
             border-radius: 15px;
-            margin-bottom: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
         }
-        h1 {
-            color: #ffd700;
-            font-size: 24px;
-            margin-bottom: 5px;
+        h2 {
+            color: #38bdf8;
         }
-        .subtitle {
-            color: #a8ff78;
-            font-size: 13px;
-        }
-        .content-box {
-            background: rgba(255, 255, 255, 0.08);
-            border-radius: 15px;
+        .box {
+            background: #334155;
             padding: 15px;
-            margin-bottom: 15px;
-            text-align: right;
+            margin: 15px 0;
+            border-radius: 10px;
         }
-        .content-box h3 {
-            color: #ff4757;
-            margin-top: 0;
-            font-size: 17px;
-            border-bottom: 1px solid rgba(255,255,255,0.2);
-            padding-bottom: 5px;
-        }
-        .content-box p {
-            color: #f1f2f6;
-            font-size: 14px;
-            line-height: 1.6;
-        }
-        .img-container {
+        img {
             width: 100%;
             border-radius: 10px;
-            overflow: hidden;
             margin-top: 10px;
         }
-        .img-container img {
-            width: 100%;
-            height: auto;
+        .btn {
             display: block;
-            border-radius: 10px;
-        }
-        .telegram-section {
-            background: rgba(0, 0, 0, 0.2);
-            padding: 15px;
-            border-radius: 15px;
-            margin-top: 20px;
-        }
-        .telegram-btn {
-            display: block;
-            background: #0088cc;
+            background: #0ea5e9;
             color: white;
-            padding: 12px 15px;
+            padding: 12px;
             margin: 10px 0;
             text-decoration: none;
-            border-radius: 25px;
+            border-radius: 8px;
             font-weight: bold;
-            font-size: 15px;
-            text-align: center;
+            transition: 0.3s;
         }
-        .telegram-btn.sarok {
-            background: #229ED9;
+        .btn:hover {
+            background: #0284c7;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div class="header">
-            <h1>sahand efootball 😍❤️</h1>
-            <div class="subtitle">بۆ کڕین و فرۆشتنی ئەکاونت</div>
+        <h2>❤️😍 sahand efootball</h2>
+        <p>بۆ کرین و فرۆشتنی ئەکاونت</p>
+
+        <div class="box">
+            <h3>📢 ئاگاداری و نۆیترین زانیاری</h3>
+            <p>بە خێر هاتن بۆ ئەپەکەمان! لێرەدا دەتوانن ڕۆژانە نۆیترین ئەکاونت و زانیارییەکان ببینن.</p>
         </div>
 
-        <div class="content-box">
-            <h3>📌 ئاگاداری و نوێترین زانیاری</h3>
-            <p>بە خێر هاتن بۆ ئەپەکەمان! لێرەدا دەتوانن ڕۆژانە نوێترین ئەکاونت و زانیارییەکان ببینن.</p>
-        </div>
-
-        <div class="content-box">
+        <div class="box">
             <h3>🖼️ وێنەی ڕۆژ</h3>
-            <div class="img-container">
-                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe" alt="Daily Image">
-            </div>
+            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe" alt="وێنەی ڕۆژ">
         </div>
 
-        <div class="telegram-section">
-            <p style="font-size: 13px; color: #ffd700; margin-top: 0;">سەردانی کەناڵە فەرمییەکانمان بکەن:</p>
-            <a href="https://t.me/HSK_SAHAND" class="telegram-btn" target="_blank">📲 کەناڵی تێلیگرامی سەهەند</a>
-            <a href="https://t.me/hardsqadkurd" class="telegram-btn sarok" target="_blank">👑 کەناڵی مام سەرۆک</a>
-        </div>
+        <h3>سەردانی کەناڵە فەرمییەکانمان بکەن:</h3>
+        
+        <a href="https://t.me/HSK_SAHAND" class="btn" target="_blank">💬 کەناڵی تێلیگرامی سەهەند</a>
+        <a href="https://t.me/hardsqadkurd" class="btn" target="_blank">💬 کەناڵی مام سەرۆک</a>
     </div>
 
 </body>
