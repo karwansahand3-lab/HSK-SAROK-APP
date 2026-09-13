@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>HSK SAROK APP</title>
 
     <style>
@@ -57,14 +56,6 @@
         .btn:hover {
             background: #0284c7;
         }
-
-        .telegram {
-            background: #229ED9;
-        }
-
-        .telegram:hover {
-            background: #168ac0;
-        }
     </style>
 </head>
 
@@ -78,11 +69,9 @@
 
         <div class="box">
             <h3>📢 ئاگاداری و نۆیترین زانیاری</h3>
-
             <p>
                 بە خێر هاتن بۆ ئەپەکەمان!
-                لێرەدا دەتوانن ڕۆژانە نۆیترین
-                ئەکاونت و زانیارییەکان ببینن.
+                لێرەدا دەتوانن ڕۆژانە نۆیترین ئەکاونت و زانیارییەکان ببینن.
             </p>
         </div>
 
@@ -97,22 +86,20 @@
 
         <h3>سەردانی کەناڵە فەرمییەکانمان بکەن:</h3>
 
-        <!-- Telegram Channel 1 -->
+        <!-- Telegram 1 -->
         <a
-            href="https://web.telegram.org/k/#@HSK_SAHAND"
-            class="btn telegram"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="tg://resolve?domain=HSK_SAHAND"
+            class="btn"
+            onclick="setTimeout(function(){ window.location.href='https://t.me/HSK_SAHAND'; }, 800);"
         >
             💬 کەناڵی تێلیگرامی سەهەند
         </a>
 
-        <!-- Telegram Channel 2 -->
+        <!-- Telegram 2 -->
         <a
-            href="https://web.telegram.org/k/#@hardsqadkurd"
-            class="btn telegram"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="tg://resolve?domain=hardsqadkurd"
+            class="btn"
+            onclick="setTimeout(function(){ window.location.href='https://t.me/hardsqadkurd'; }, 800);"
         >
             💬 کەناڵی مام سەرۆک
         </a>
